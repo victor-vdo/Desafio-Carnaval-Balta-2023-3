@@ -11,7 +11,6 @@ var valorLimite = 72.0;
 Saida saida = new Saida(SaidaDado);
 saida(relacao, valorLimite);
 
-
 double EntradaDado(string mensagem, out double valor)
 {
     Console.WriteLine(mensagem);
